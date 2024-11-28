@@ -15,6 +15,8 @@ toggleActions	    Controls animation behavior as the trigger enters and exits th
                     - reverse: Reverse animation when scrolling back out of the trigger zone.
 markers	            Displays visual markers in the browser to debug where the start and end points are located (remove for production).
 
+[Live Demo] (https://mrhelp92.github.io/GSAP-examples/1.%20ScrollTrigger%20Plugin/)
+
 # 2. MotionPath plugin Example
 How It Works:
 MotionPathPlugin:
