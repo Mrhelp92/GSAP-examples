@@ -1,4 +1,6 @@
 # GSAP-examples
+This project will help you see at a glance how each plugin is rendered in action instead of having to take time to create it and test it yourself.
+You can see the live demos directly then read about how each plugin works. Feel free to ask me any question!
 
 # 1. ScrollTrigger plugin Example
 
@@ -31,6 +33,8 @@ gsap.to():
 
 The gsap.to(".box", {...}) function animates the .box element along the path. The duration is set to 4 seconds, and the easing function power1.inOut is used for a smoother animation.
 
+[Live Demo] (https://mrhelp92.github.io/GSAP-examples/2.%20MotionPathPlugin/)
+
 # 3. Draggable Plugin Example
 How It Works:
 Draggable Plugin:
@@ -42,6 +46,8 @@ inertia: true: Adds smooth motion when you let go of the draggable item.
 Events:
 
 onDragStart, onDrag, and onDragEnd: These callbacks are triggered during the dragging process and provide hooks for custom functionality.
+
+[Live Demo] (https://mrhelp92.github.io/GSAP-examples/3.%20Draggable%20Plugin/)
 
 # 4. TextPlugin Example
 How It Works:
@@ -61,6 +67,8 @@ Callbacks:
 onStart: Runs when the animation starts.
 onComplete: Runs when the animation ends.
 
+[Live Demo] (https://mrhelp92.github.io/GSAP-examples/4.%20TextPlugin/)
+
 # 5. Flip Plugin Example
 How It Works:
 Flip Plugin:
@@ -79,3 +87,5 @@ stagger: Adds a delay between animations for individual elements.
 Dynamic CSS Injection:
 
 Grid styles are dynamically added to the document for the grid layout.
+
+[Live Demo] (https://mrhelp92.github.io/GSAP-examples/5.%20Flip%20Plugin/)
