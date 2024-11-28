@@ -1,0 +1,21 @@
+/* General Body Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 300vh; /* Ensure enough height for scrolling */
+    background-color: #f8f9fa; /* Light gray background */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* Styling for Boxes */
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    opacity: 0; /* Hidden initially */
+    margin: 50px 0;
+    transform: translateY(100px); /* Start below the screen */
+  }

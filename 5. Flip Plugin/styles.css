@@ -1,0 +1,49 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Container Styling */
+  .container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 300px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Box Styling */
+  .box {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    user-select: none;
+  }
+  

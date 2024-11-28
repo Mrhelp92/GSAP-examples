@@ -1,0 +1,25 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+  }
+  
+  /* Styling for the Box */
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    position: absolute;
+    transform-origin: center center;
+  }
+  
